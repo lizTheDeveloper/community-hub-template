@@ -1,0 +1,318 @@
+/*
+   Community Hub Stylesheet
+
+   Feel free to customize colors and spacing!
+   Look for comments that say "EDIT THIS" for easy customization points.
+*/
+
+/* EDIT THIS: Main Color Scheme */
+:root {
+    --primary-color: #2c5f2d;      /* Main green - change to your preferred color */
+    --primary-light: #5f9e61;      /* Lighter green for hover states */
+    --background: #f5f5f5;         /* Page background - light gray */
+    --card-background: #ffffff;    /* Card background - white */
+    --text-dark: #1f2937;          /* Main text color - dark gray */
+    --text-light: #6b7280;         /* Secondary text - medium gray */
+    --border: #e5e7eb;             /* Border color - light gray */
+    --warning: #dc2626;            /* Red for warnings/emergencies */
+    --info: #2563eb;               /* Blue for info */
+}
+
+/* Base Styles - Don't change unless you know CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif;
+    line-height: 1.6;
+    color: var(--text-dark);
+    background-color: var(--background);
+    padding: 10px;
+    max-width: 100%;
+}
+
+/* EDIT THIS: Page width - increase for wider pages */
+main {
+    max-width: 800px;  /* Change to 1000px or 600px to adjust width */
+    margin: 0 auto;
+}
+
+/* Header */
+header {
+    background: var(--primary-color);
+    color: white;
+    padding: 20px;
+    border-radius: 12px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 1.8em;
+    margin-bottom: 5px;
+}
+
+.tagline {
+    font-size: 0.9em;
+    opacity: 0.9;
+}
+
+/* Cards - The boxes that contain content */
+.card {
+    background: var(--card-background);
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.card h2 {
+    color: var(--primary-color);
+    margin-bottom: 15px;
+    font-size: 1.4em;
+}
+
+.card h3 {
+    color: var(--text-dark);
+    margin-top: 15px;
+    margin-bottom: 10px;
+    font-size: 1.1em;
+}
+
+/* Lists */
+ul {
+    list-style-position: inside;
+    margin-left: 0;
+}
+
+ul li {
+    margin-bottom: 8px;
+    line-height: 1.6;
+}
+
+.link-list {
+    list-style: none;
+}
+
+.link-list li {
+    margin-bottom: 12px;
+}
+
+/* Links */
+a {
+    color: var(--primary-color);
+    text-decoration: none;
+    border-bottom: 1px solid var(--primary-light);
+    transition: all 0.2s;
+}
+
+a:hover {
+    color: var(--primary-light);
+    border-bottom-color: var(--primary-color);
+}
+
+/* Buttons (if you add them) */
+.button {
+    display: inline-block;
+    background: var(--primary-color);
+    color: white;
+    padding: 10px 20px;
+    border-radius: 6px;
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+    transition: background 0.2s;
+}
+
+.button:hover {
+    background: var(--primary-light);
+    border-bottom: none;
+}
+
+/* Announcements */
+.announcement {
+    background: #fef3c7;  /* Light yellow background */
+    border-left: 4px solid #f59e0b;  /* Orange border */
+    padding: 12px;
+    margin-bottom: 12px;
+    border-radius: 4px;
+}
+
+.announcement strong {
+    color: #92400e;  /* Dark orange text */
+    display: block;
+    margin-bottom: 5px;
+}
+
+/* Emergency/Warning Styles */
+.emergency {
+    background: #fee2e2;  /* Light red background */
+    border-left: 4px solid var(--warning);
+    padding: 12px;
+    margin-bottom: 12px;
+    border-radius: 4px;
+}
+
+.emergency strong {
+    color: var(--warning);
+}
+
+/* Info Boxes */
+.info-box {
+    background: #dbeafe;  /* Light blue background */
+    border-left: 4px solid var(--info);
+    padding: 12px;
+    margin-bottom: 12px;
+    border-radius: 4px;
+}
+
+/* Contact Cards */
+.contact-card {
+    background: var(--background);
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 6px;
+    border-left: 3px solid var(--primary-color);
+}
+
+.contact-card strong {
+    color: var(--primary-color);
+    display: block;
+    margin-bottom: 5px;
+}
+
+/* Tables (for tool libraries, schedules, etc) */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 15px 0;
+}
+
+th {
+    background: var(--primary-color);
+    color: white;
+    padding: 12px;
+    text-align: left;
+}
+
+td {
+    padding: 12px;
+    border-bottom: 1px solid var(--border);
+}
+
+tr:hover {
+    background: var(--background);
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    margin-top: 30px;
+    color: var(--text-light);
+    border-top: 1px solid var(--border);
+}
+
+footer .small {
+    font-size: 0.85em;
+    margin-top: 10px;
+}
+
+/* Mobile Responsiveness - Makes it look good on phones */
+@media (max-width: 600px) {
+    body {
+        padding: 5px;
+    }
+
+    header {
+        padding: 15px;
+    }
+
+    header h1 {
+        font-size: 1.4em;
+    }
+
+    .card {
+        padding: 15px;
+    }
+
+    .card h2 {
+        font-size: 1.2em;
+    }
+
+    table {
+        font-size: 0.9em;
+    }
+
+    th, td {
+        padding: 8px;
+    }
+}
+
+/* Print Styles - For if someone wants to print pages */
+@media print {
+    body {
+        background: white;
+    }
+
+    .card {
+        box-shadow: none;
+        border: 1px solid var(--border);
+        page-break-inside: avoid;
+    }
+
+    a {
+        color: black;
+        text-decoration: underline;
+    }
+
+    header {
+        background: none;
+        color: black;
+        border: 2px solid black;
+    }
+}
+
+/* Utility Classes - Helpful shortcuts */
+.text-center {
+    text-align: center;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.small {
+    font-size: 0.9em;
+}
+
+.large {
+    font-size: 1.2em;
+}
+
+.spacing-top {
+    margin-top: 20px;
+}
+
+.spacing-bottom {
+    margin-bottom: 20px;
+}
+
+/* Back to Top Link */
+.back-to-top {
+    display: block;
+    text-align: center;
+    margin: 20px 0;
+    padding: 10px;
+}
