@@ -8,6 +8,7 @@ This template is designed for people who are NOT comfortable with HTML. You can 
 
 ## What's Included
 
+**Website Files:**
 - `index.html` - Homepage (START HERE)
 - `emergency.html` - Emergency contacts and procedures
 - `skills.html` - Community skills directory
@@ -15,6 +16,11 @@ This template is designed for people who are NOT comfortable with HTML. You can 
 - `maps.html` - Local maps and wayfinding
 - `mutual-aid.html` - Mutual aid protocols
 - `style.css` - Colors and design (optional to edit)
+
+**Guides:**
+- `README.md` - This file (editing guide)
+- `Solarpunk Node Content Ideas.md` - Comprehensive list of what to include
+- `Open Source Community Tools Guide.md` - ⭐ **Advanced tools for expanding your hub**
 
 ---
 
@@ -436,6 +442,28 @@ cp index-backup.html index.html
 - [ ] Check all links work
 - [ ] Show to someone for feedback
 - [ ] Celebrate! You customized a website!
+
+---
+
+## Ready to Go Beyond the Basics?
+
+Once you're comfortable with this template, check out **[Open Source Community Tools Guide.md](Open%20Source%20Community%20Tools%20Guide.md)** for:
+
+**Advanced Features:**
+- 📚 **TiddlyWiki** - Entire wiki in a single HTML file
+- 📝 **Bulletin boards** - Simple message boards with Python
+- 📅 **Interactive calendars** - Event scheduling with JavaScript
+- 🗺️ **Maps** - Offline mapping with Leaflet.js
+- 🔧 **Tool checkout systems** - Track community resources
+
+**All recommendations are:**
+- ✅ Free and open source
+- ✅ Lightweight (work on phones!)
+- ✅ Offline-capable
+- ✅ No heavy dependencies (no PHP, no databases)
+- ✅ Easy to install in Termux
+
+Start simple with this template, then expand when you're ready!
 
 ---
 
