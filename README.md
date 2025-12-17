@@ -21,6 +21,7 @@ This template is designed for people who are NOT comfortable with HTML. You can 
 - `README.md` - This file (editing guide)
 - `Solarpunk Node Content Ideas.md` - Comprehensive list of what to include
 - `Open Source Community Tools Guide.md` - ⭐ **Advanced tools for expanding your hub**
+- `Federated Solarpunk Networks Guide.md` - 🌐 **Connect with other communities using open protocols**
 
 ---
 
@@ -447,7 +448,9 @@ cp index-backup.html index.html
 
 ## Ready to Go Beyond the Basics?
 
-Once you're comfortable with this template, check out **[Open Source Community Tools Guide.md](Open%20Source%20Community%20Tools%20Guide.md)** for:
+### Expand Your Single Hub
+
+Check out **[Open Source Community Tools Guide.md](Open%20Source%20Community%20Tools%20Guide.md)** for:
 
 **Advanced Features:**
 - 📚 **TiddlyWiki** - Entire wiki in a single HTML file
@@ -462,6 +465,19 @@ Once you're comfortable with this template, check out **[Open Source Community T
 - ✅ Offline-capable
 - ✅ No heavy dependencies (no PHP, no databases)
 - ✅ Easy to install in Termux
+
+### Connect with Other Communities 🌐
+
+Check out **[Federated Solarpunk Networks Guide.md](Federated%20Solarpunk%20Networks%20Guide.md)** to:
+
+**Build the Network:**
+- 🤝 **Share resources** between communities (tools, food, skills)
+- 🔍 **Auto-discover** nearby nodes on local networks
+- 🌍 **Federate** with remote communities using open protocols
+- 🤖 **AI agents** coordinate resource allocation automatically
+- 📡 **Open standards** - ValueFlows, ActivityPub, mDNS
+
+**Make your hub interoperable with other solarpunk communities!**
 
 Start simple with this template, then expand when you're ready!
 
