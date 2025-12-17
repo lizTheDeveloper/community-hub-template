@@ -17,6 +17,12 @@ This template is designed for people who are NOT comfortable with HTML. You can 
 - `mutual-aid.html` - Mutual aid protocols
 - `style.css` - Colors and design (optional to edit)
 
+**Federation & API Tools:**
+- `valueflows_api.py` - REST API server exposing your resources (ValueFlows protocol)
+- `search_network.py` - Search tools/food/skills across federated communities
+- `resources.json` - Your community's resource inventory (tools, food, skills)
+- `federation.json` - List of connected community hubs in your network
+
 **Guides:**
 - `README.md` - This file (editing guide)
 - `Solarpunk Node Content Ideas.md` - Comprehensive list of what to include
@@ -444,6 +450,79 @@ cp index-backup.html index.html
 - [ ] Check all links work
 - [ ] Show to someone for feedback
 - [ ] Celebrate! You customized a website!
+
+---
+
+## Using the Federation Tools
+
+Once you've customized your hub, you can connect with other communities!
+
+### 1. Edit Your Resource Inventory
+
+Edit `resources.json` with your actual tools, food, and skills:
+
+```bash
+nano resources.json
+```
+
+Example:
+```json
+{
+  "id": "tool:ladder-001",
+  "name": "8ft Extension Ladder",
+  "type": "tool",
+  "classification": "Tools",
+  "currentLocation": "Tool Shed",
+  "status": "available",
+  "currentQuantity": 1
+}
+```
+
+### 2. Start the API Server
+
+```bash
+# Install Flask first
+pip install flask
+
+# Run the API
+python valueflows_api.py
+```
+
+Your resources are now available at: `http://your-ip:8081/api/resources`
+
+### 3. Add Other Communities to Federation
+
+Edit `federation.json` with hubs you want to connect with:
+
+```json
+{
+  "nodes": [
+    {
+      "name": "Your Community Hub",
+      "url": "http://localhost:8081"
+    },
+    {
+      "name": "Friend's Hub",
+      "url": "http://192.168.1.100:8081"
+    }
+  ]
+}
+```
+
+### 4. Search the Network
+
+```bash
+# Search all resources
+python search_network.py
+
+# Search only tools
+python search_network.py --type tool
+
+# Search for specific item
+python search_network.py --query ladder
+```
+
+**That's it! You're now part of a federated solarpunk network!** 🌱🌐
 
 ---
 
