@@ -22,6 +22,7 @@ This template is designed for people who are NOT comfortable with HTML. You can 
 - `Solarpunk Node Content Ideas.md` - Comprehensive list of what to include
 - `Open Source Community Tools Guide.md` - ⭐ **Advanced tools for expanding your hub**
 - `Federated Solarpunk Networks Guide.md` - 🌐 **Connect with other communities using open protocols**
+- `Conversational Resource Agents Guide.md` - 🤖 **Make your network conversational with AI agents + MCP**
 
 ---
 
@@ -477,7 +478,18 @@ Check out **[Federated Solarpunk Networks Guide.md](Federated%20Solarpunk%20Netw
 - 🤖 **AI agents** coordinate resource allocation automatically
 - 📡 **Open standards** - ValueFlows, ActivityPub, mDNS
 
-**Make your hub interoperable with other solarpunk communities!**
+### Make It Conversational 🤖
+
+Check out **[Conversational Resource Agents Guide.md](Conversational%20Resource%20Agents%20Guide.md)** to:
+
+**Add Natural Language Interface:**
+- 💬 **"Find me a ladder"** - No browsing needed!
+- 🗣️ **Voice interface** - Talk to your community network
+- 🤏 **Tiny agents** - smolagents runs on phones (1.7B-3B models)
+- 🔧 **MCP integration** - Standard tools that agents can use
+- 🌐 **Federated queries** - Search across all connected communities
+
+**Make the network accessible to everyone, not just programmers!**
 
 Start simple with this template, then expand when you're ready!
 
