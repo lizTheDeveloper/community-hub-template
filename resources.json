@@ -1,0 +1,55 @@
+[
+  {
+    "id": "tool:ladder-001",
+    "name": "8ft Extension Ladder",
+    "type": "tool",
+    "classification": "Tools",
+    "currentLocation": "Tool Shed",
+    "status": "available",
+    "currentQuantity": 1,
+    "unit": "item"
+  },
+  {
+    "id": "tool:drill-001",
+    "name": "Cordless Drill",
+    "type": "tool",
+    "classification": "Power Tools",
+    "currentLocation": "Workshop",
+    "status": "in_use",
+    "currentQuantity": 1,
+    "unit": "item",
+    "note": "Currently checked out by Alex"
+  },
+  {
+    "id": "food:tomatoes-2025",
+    "name": "Roma Tomatoes",
+    "type": "food",
+    "classification": "Fresh Produce",
+    "currentLocation": "Community Garden",
+    "status": "available",
+    "currentQuantity": 50,
+    "unit": "lbs"
+  },
+  {
+    "id": "skill:solar-repair",
+    "name": "Solar Panel Installation & Repair",
+    "type": "skill",
+    "classification": "Technical Skills",
+    "currentLocation": "Sam Martinez",
+    "status": "available",
+    "currentQuantity": 1,
+    "unit": "person",
+    "note": "Contact via Briar or leave note at hub"
+  },
+  {
+    "id": "skill:foraging",
+    "name": "Wild Food Foraging",
+    "type": "skill",
+    "classification": "Food Skills",
+    "currentLocation": "Jordan Chen",
+    "status": "available",
+    "currentQuantity": 1,
+    "unit": "person",
+    "note": "Leads foraging walks every Saturday"
+  }
+]

@@ -1,0 +1,39 @@
+{
+  "nodes": [
+    {
+      "name": "Your Community Hub",
+      "url": "http://localhost:8081",
+      "location": "Local",
+      "communication": {
+        "meshtastic_channel": "LongFast",
+        "briar_group": "Your Community Group"
+      }
+    },
+    {
+      "name": "Oakland Solarpunk Hub",
+      "url": "http://192.168.1.100:8081",
+      "location": "Oakland, CA",
+      "communication": {
+        "meshtastic_channel": "LongFast",
+        "briar_group": "Solarpunk Network"
+      },
+      "note": "Example - replace with real federated hubs"
+    },
+    {
+      "name": "Berkeley Community Node",
+      "url": "http://192.168.1.101:8081",
+      "location": "Berkeley, CA",
+      "communication": {
+        "meshtastic_channel": "LongFast",
+        "briar_group": "Solarpunk Network"
+      },
+      "note": "Example - replace with real federated hubs"
+    }
+  ],
+  "metadata": {
+    "version": "1.0",
+    "protocol": "ValueFlows",
+    "created": "2025-01-19",
+    "network_name": "Bay Area Solarpunk Federation"
+  }
+}
